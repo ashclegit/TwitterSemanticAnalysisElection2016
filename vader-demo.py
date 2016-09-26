@@ -9,8 +9,8 @@ tweets = [
 
 vaderAnalyzer = SentimentIntensityAnalyzer()
 for tweet in tweets:
-    print tweet
+    print(tweet)
     scores = vaderAnalyzer.polarity_scores(tweet)
     for score in scores:
-        print "{0} : {1}".format(score, scores[score]),
-    print '\n'
+        print("{0} : {1}".format(score, scores[score]))
+    print('\n')
