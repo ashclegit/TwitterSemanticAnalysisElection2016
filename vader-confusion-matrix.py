@@ -44,6 +44,8 @@ confusion_matrix = {
 	'neu_neu': 0
 }
 
+f = open('ClassifiedTweets','w')
+
 vaderAnalyzer = SentimentIntensityAnalyzer()
 for tweet in hand_coded_tweets:
 	scores = vaderAnalyzer.polarity_scores(tweet['text'])
@@ -76,6 +78,7 @@ for tweet in hand_coded_tweets:
 			confusion_matrix['neu_neg'] += 1				
 		else:
 			confusion_matrix['neu_neu'] += 1				
+	print(tweet, file=f)
 print("Total Tweets Analyzed: {0}\n".format(len(hand_coded_tweets)))
 
 for key, value in sorted(confusion_matrix.items()): # Note the () after items!
