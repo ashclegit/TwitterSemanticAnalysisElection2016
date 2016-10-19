@@ -1,133 +1,47 @@
-{'sentiment': <Positivity.positive: 1>, 'text': '\ufeff@tyleroakley no, he was being a gentleman. Trump won.', 'code': '1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': "@Pennie_Bennie @patrioticpepe @realDonaldTrump And that's why I'm still on the Trump Train. He ruled the debate!", 'code': '1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'It’s war! Hillary Clinton and Donald Trump bare their mutual disgust on #debate stage', 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'wow I used twitter tonight more than I have in 3mths... #debate?', 'code': '0'}
-{'sentiment': <Positivity.neutral: 0>, 'text': "I just got the right to vote and I'm more of an adult than Donald Trump.", 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': "They had a #debate in St. Louis, and Ferguson didn't come up.", 'code': '0'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'Trump looked like a stalker lurking behind Clinton while she answered questions. #debate', 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'I tuned into the "debate" (shit show) and couldn\'t even listen to trump for a minute and turned back to the NYG game lol', 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': "@ABC I'm sure they'll work it out.  @realDonaldTrump @mike_pence #MAGA", 'code': '1'}
-{'sentiment': <Positivity.positive: 1>, 'text': '#Debate over. Are you ready for some football? #gopack', 'code': '0'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'Watching the debate was like watching the Comedy Central roast......but not funny', 'code': '0'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'Before I go to sleep here in Germany: If I were @mike_pence I would step back tomorrow. #debate', 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': "Well, that debate totally helped me make up my mind. I'm officially voting for @andersoncooper and his purple tie! #AnMan #debates", 'code': '0'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'Hillary loses haha', 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': "John Dickerson, the greatest presidential historian on TV, can't remember one candidate threatening to jail his opposite. Wow. #debate", 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'excuse me y do people want hillary', 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': '@cspan #debate It dsnt matter if clinton focused on the people &amp; trump focused on clinton. u cant focus on the ppl if you have shady emails', 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'A Fly Landed On Hillary Clinton’s Face In The Middle Of The Presidential Debate: And Twitter flipped out!', 'code': '0'}
-{'sentiment': <Positivity.neutral: 0>, 'text': '"@TimKennedyMMA: Didn\'t know the moderators could debate the debaters. #bias #debate2016 #PresidentialDebate"', 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'Ken Bone for President!!! #debate', 'code': '0'}
-{'sentiment': <Positivity.neutral: 0>, 'text': '@JoeTalkShow you gotta see @FrankLuntz new tweet- many shifting to Trump after tonight!', 'code': '1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': '@realDonaldTrump @HillaryClinton Never Trump!', 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'I cannot stomach Donald Trump being president &amp; representing my country - our country', 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': "Hillary diminishes herself by playing the talk over the moderator game. Dunno if that's supposed to make you appear more in control.", 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': "They should give the debate moderators control over the candidate's microphones. Cut the power to the mics when they run overtime", 'code': '0'}
-{'sentiment': <Positivity.neutral: 0>, 'text': "Trump looms behind Clinton: Donald Trump created an awkward situation during Sunday's presidential debate, wh...", 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'Trump tried to get more power to all the hot air in his head by sniffing #debatenight', 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': '@KirstenPowers No @realDonaldTrump won easily!!!', 'code': '1'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'Just watched #debate. HRC very good in style and substance, the opponent devoid of any. His finish good: respects HRC for being a fighter.', 'code': '1'}
-{'sentiment': <Positivity.negative: -1>, 'text': "On Trump's federal income tax #debate admission, what I heard as an admission in the present tense. In other words he still doesn't pay any.", 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'Go to hell trump. https://t.co/HgRfOJWBIY', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': "'Hillary Clinton Just Destroyed Donald Trump'", 'code': '1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'Its obvious that Donald can think on his feet ten times faster than hillary!!', 'code': '1'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'Another funny debate. Idk what\'s funnier, "locker room talk" or killary just straight lying to us', 'code': '0'}
-{'sentiment': <Positivity.positive: 1>, 'text': "I found this entertaining new comedy show called The Presidential #Debate, however I can't find it on @netflix", 'code': '0'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'As usual Trump had very little substance and lot of hot air. He came off as a vindictive person that he was in Republican debates.', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'I really do not care about politics, I just think you are insane if you support Trump, parties be damned!', 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'How delusional are you @mike_pence @realDonaldTrump', 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'Wayne Grudem pulled back his endorsement of Trump. He should never have endorsed him in the first place.', 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'RT @Darren32895836: Top GOP Donor Mica Mosbacher says as a Mother &amp; as a Christian she supports Donald Trump 110%! Never Hillary Clinton', 'code': '1'}
-{'sentiment': <Positivity.negative: -1>, 'text': '@JamieW1776 It is a simple mathematical fact now that Trump can not win. GOP needs to disavow and try to throw the election to the House.', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'LEAKED SPEECHES Confirm Suspicion that Hillary Clinton is a Subservient Wall Street Puppet https://t.co/H88BzamqLA https://t.co/RIYbKV59z6', 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'Big debate tonight...hopefully Trump continues to show his true colours', 'code': '0'}
-{'sentiment': <Positivity.neutral: 0>, 'text': '#SayNoToTrump', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'Biased and Dishonest Associated Press Spin “Bucket of Losers” Story to Help Hillary Clinton https://t.co/q4y9tiZbdE https://t.co/H99QwITsXK', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'RT @stevesilberman: The worst guys on Earth are saying "all men do this" now to cover Trump. It sends a terrible message to young men. http…', 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'RT @LindaSuhler: Poll: Republican Voters Ready to Stand by Trump Despite Video #TrumpPence16 #AmericaFirst #MAGA #TrumpTrain', 'code': '1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'Donald Trump is a phony', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'RT @WalshFreedom: If women are so outraged by Trump\'s dirty talk, then who the hell bought the 80 million copies of "Fifty Shades Of Grey?"', 'code': '0'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'RT @KevinGutzman: @FAIRImmigration Wikileaks today released email in which Hillary Clinton says she wants open borders.', 'code': '1'}
-{'sentiment': <Positivity.negative: -1>, 'text': "@activist360 This this this- Trump using 'n' word?!! Screw the taxes he never paid anyway &amp; release the damn tapes!", 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'RT @amarvarma: @Chris11962 @MrDane1982 yes there is a Rape Trial date for TRUMP this week. With lots of pre history of payment settlements', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'RT @HouseCracka: Hillary has 4 dead bodies in Benghazi. Americans who asked for her help. She said no. @DeplorableDJT @mitchellvii', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'RT @PrisonPlanet: Hillary supporter caught violating rules while registering voters in Columbus, Ohio. https://t.co/uMBy85XbZR', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': "RT @AngelinaGaalvis: if you're a female how the FUCK do you stand by Trump, embarrassing", 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'RT @JessieJaneDuff: Over 3,000 refugees came here in just 6 days. And Hillary will bring even more. #ShariaKills https://t.co/N7l0Qaeh7j', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': "RT @Callisto1947: Hillary, You Just Can't Be A Leader When You Have So Much Hate &amp; Deceit In Your Heart For A Multitude Of Americans!!", 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': "RT @lovetogarden: @SebGorka This election isn't about Trump.  It's about stopping death of American dream.", 'code': '1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': "RT @Davewellwisher: WE'RE STILL WITH YOU 100% realDonaldTrump!!!!!!!!!!!!!!!!!!! WE WILL SHOW UP TO VOTE ON 11/8!!!!!! https://t.co/f9râ€", 'code': '1'}
-{'sentiment': <Positivity.positive: 1>, 'text': "RT @samkalidi: Apprentice producer says there's a tape of Trump using the N-word &amp; if released it will definitely encourage his supporters", 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'The first Female president, talk about an awesome thing to see!!!!!  Hillary Clinton 2016!', 'code': '1'}
-{'sentiment': <Positivity.positive: 1>, 'text': "@Smartypants60 I'm curious who they'll have in the audience to unsettle Trump tonight. Mark Cuban had Trump riled up last time.", 'code': '0'}
-{'sentiment': <Positivity.positive: 1>, 'text': "What kind extreme Supreme Court Justice would Trump pick? Could be one to set women's rights, Civil Rights back 50 yrs. AND that's scary", 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'RT @BBCNewsPR: See Trump vs Clinton in the second US presidential debate live on @BBCNews from 2-4am', 'code': '0'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'RT @wikileaks: Hillary Clinton, in a political game of chicken, ordered her team &amp; its press contacts to elevate Donald Trump', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': "wikileaks: Syria no-fly zone would mean 'killing a lot of Syrians' warned Hillary Clinton in leaked speech", 'code': '0'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'Proudly flying my Trump Pence flag along with proud to be in the basket of deplorable flag.', 'code': '1'}
-{'sentiment': <Positivity.positive: 1>, 'text': '@ScottAdamsSays The "fake because." How many voters parked their vote with #Trump to seem like loyal soldiers?', 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': '@marcorubio  If we want to accept abortion on demand for ever, all you have to do just abandon Trump now.', 'code': '0'}
-{'sentiment': <Positivity.positive: 1>, 'text': "What kind extreme Supreme Court Justice would Trump pick? Could be one to set women's rights, Civil Rights back 50 yrs. AND that's scary", 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'HERE YOU GO DUMBAS$ @chucktodd @MSNBC Here are all the times Donald Trump has been accused of rape or attempted rape', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': "Can't decide which career threatening match I want to watch tonight, Miz v Ziggler, or Trump v his own mouth. #debate #NoMercy", 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': "Pretty sure Hillary Clinton could show up at tonight's #debate, not say a single word, and walk away the winner.", 'code': '1'}
-{'sentiment': <Positivity.negative: -1>, 'text': '@CaroleRadziwill @jennieschreib @EllaLela @from_santis @hillary she fought for healthcare for 9/11 first responders!!', 'code': '1'}
-{'sentiment': <Positivity.positive: 1>, 'text': "United States would be a 'rogue superpower' under Trump, analysis says", 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'Such violent and destructive actions, we need look no farther than #Trump? millions of Americans &amp; #NATO citizens', 'code': '1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'Trump is like every adolescent with ADHD compounds with an emotional disorder. Poor impulse control &amp; attention seeking overflow behaviors.', 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': "RT this if you're proud to have Hillary's back tonight.", 'code': '1'}
-{'sentiment': <Positivity.positive: 1>, 'text': "So true Don't vote down the ticket show them we role not them", 'code': '0'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'HILLARY WILL HELP HER LONDON BANKSTER RELATIVES CONFISCATE ALL PRIVATE PROPERTY IN AMERICA(COMMUNISM)', 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': "Wish I had the energy to stay up &amp; watch this #PresidentialDebate , I'm sure I'll make for entertaining viewing.", 'code': '0'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'I would not be mad at all if Hillary spent this entire night making references to the audio clip and giggling.', 'code': '1'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'I bet Hillary supporters have no idea what happened in Benghazi', 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'obama is tweeting about hurricane matthew whilst hilary and trump bash one another', 'code': '0'}
-{'sentiment': <Positivity.negative: -1>, 'text': '@Xiandy01 You need to wake up. Lol. Donald Trump is by far the WORST candidate in the history of ANY presidential election. THE WORST.', 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': '#Go #Team #Go #Trump #Trump #Trump', 'code': '1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'It is possible to denounce what Trump said and still support him.', 'code': '1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': "When rich white guy banter takes front seat in scandals of an electoral candidate rather than what Hillary has to dodge it doesn't say much.", 'code': '0'}
-{'sentiment': <Positivity.positive: 1>, 'text': "hillary loves to play the woman card after she's publicly degraded victim's of sexual abuse... that's the opposite of empowerment", 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'The whole video is forged and dubbed. Trump will sue your ass off!', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'We need to be much more aggressive at calling out the congenital criminality of #Hillary Clinton.', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'Trump is a loose cannon. Pence is a highly targeted cannon pointed at women, LGBTs, and non-Christians.', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': "A vote for Trump is a vote for hatred of anyone who doesn't identify as a rich, white male.", 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': ' If we nominate Trump, we will get destroyed.......and we will deserve it.', 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'Who would ever spend one cent in one of these Trump properties?  Not me. #NeverEver', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'To contradict my "stick with what we know," I expect DT to bet everything on Hillary cracking if he bluffs having scandalous footage of her.', 'code': '0'}
-{'sentiment': <Positivity.positive: 1>, 'text': "Don't judge me on the man I was 10 years ago. But please judge Hillary on the man her husband was 20 years ago", 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'I collected every Donald Trump quote about beauty and it made a really creepy beat poem', 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': "If Hillary becomes president the day after the taco will be baseball's food a parrot will be our state bird and you'll have to learn Spanish", 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'Reminder that Trump getting debate prep advice from sadist/sexual predator Roger Ailes. That should help stop…', 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': "Yes trump said some nasty things but don't forget about Hillary's record too", 'code': '0'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'Will this come up in the #PresidentialDebate that trump has used the N-word', 'code': '0'}
-{'sentiment': <Positivity.neutral: 0>, 'text': "Why Republicans can't easily dump Trump off the ballot", 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'Trump sucks', 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': '#NeverHillary # corruption # deplorable #HillaryClinton # WikiLeaks # seizures PrisonFor Hillary #Benghazi…', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'Hillary Clinton’s Hypocrisy on LGBT Rights Brutally Exposed', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': "Does the fact Bill Clinton is a rapist make it more or less likely you'll vote Hillary?", 'code': '0'}
-{'sentiment': <Positivity.negative: -1>, 'text': '@bhayes2016 @thehill Donald Trump himself has admitted he said these disgusting things. Have you not seen his "apology" video.', 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': "I'm beginning to think 'deplorables' was way too kind of a term to describe many Trump supporters.", 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': "Media are so corrupt: TV Pundits Praise Hillary Clinton On Air, Fail to Disclose They're Being Paid by Her Campaign-", 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'Reporting on the latest news before the much anticipated Clinton - Trump  debate, @pierregobet for @RTSinfo…', 'code': '0'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'How many times has Trump been "in crisis" according to the media? We must be on our second counting hand by now.', 'code': '0'}
-{'sentiment': <Positivity.negative: -1>, 'text': "ike, how awful is Trump's campaign that Tic Tac feels compelled to denounce him? He's losing breath mint demograph…", 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'You can’t even say “it’s cause it’s on tape this time” cause all of trump’s bullshit is on tape.He announced his run with a racist statement', 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': "HEALTH WATCH: Hillary Clinton's Erratic Behavior Raises Questions.", 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': "I'm now waiting for Hillary Clinton's apology for ruining the lives of the women Bill Clinton assaulted.", 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'It was all Talk from Donald Trump and no action.So all of it is a big scam to throw votes.Obama and Hillary are Hiding something big!', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'Any Person with an ounce of dignity that votes for the racist Trump should check themselves into a psych ward.', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'Openly racist, constantly lying, has no policies that he believes in and proudly hates women. Trump has done everything', 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'This is important proof people. Trump winning.', 'code': '1'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'Almost every newspaper that has endorsed a presidential candidate in the general election has endorsed Hillary.', 'code': '1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'Racist Hillary DUMPS On African Americans - Calls Them "Professional Never-Do-Wells" | John Hawkins\' Right Wing News', 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': "I hope that Trump ruins every Republican down-ballot, too. The Republican Party deserves everything they're getting", 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': '#JusticeForJuanita Bill Clinton didn’t use bad words. Bill raped Juanita and Hillary tried to discredit and shame her', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'And your solution is vote for Crooked Hillary Clinton? For real? Both Trump &amp; Clinton are corrupt fucks', 'code': '-1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': '@WeNeedTrump we stand by trump', 'code': '1'}
-{'sentiment': <Positivity.positive: 1>, 'text': 'I am hoping Hillary will take the high road, make one comment about the tapes / then refuse to continue the topic and move on.', 'code': '1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'Hillary Clinton and Donald Trump will go head-to-head again tonight, in the second presidential debate', 'code': '0'}
-{'sentiment': <Positivity.negative: -1>, 'text': "The #PodestaEmails are being ignored by the MSM. They're the nail in #Hillary's campaign coffin. Don't let them be buried.", 'code': '-1'}
-{'sentiment': <Positivity.positive: 1>, 'text': '@realDonaldTrump May our prays be heard. Give Donald Trump the courage&amp;strength to represent the will of his followers.Amen', 'code': '1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'Hillary is fighting for all of us, because she knows that we are stronger together.  Now is the time to fight for her', 'code': '1'}
-{'sentiment': <Positivity.neutral: 0>, 'text': 'OMG!! Hillary deleted thousands of emails, was investigated by corrupt FBI', 'code': '-1'}
-{'sentiment': <Positivity.negative: -1>, 'text': 'Would you like it if Bill raped your mom and Hillary then scared her into not talking?', 'code': '-1'}
+{'text': '\ufeff@tyleroakley no, he was being a gentleman. Trump won.', 'sentiment': <Positivity.positive: 1>, 'code': '1'}
+{'text': "John Dickerson, the greatest presidential historian on TV, can't remember one candidate threatening to jail his opposite. Wow. #debate", 'sentiment': <Positivity.positive: 1>, 'code': '-1'}
+{'text': 'excuse me y do people want hillary', 'sentiment': <Positivity.positive: 1>, 'code': '-1'}
+{'text': '@cspan #debate It dsnt matter if clinton focused on the people &amp; trump focused on clinton. u cant focus on the ppl if you have shady emails', 'sentiment': <Positivity.positive: 1>, 'code': '-1'}
+{'text': 'Just watched #debate. HRC very good in style and substance, the opponent devoid of any. His finish good: respects HRC for being a fighter.', 'sentiment': <Positivity.positive: 1>, 'code': '1'}
+{'text': "'Hillary Clinton Just Destroyed Donald Trump'", 'sentiment': <Positivity.negative: -1>, 'code': '1'}
+{'text': 'I really do not care about politics, I just think you are insane if you support Trump, parties be damned!', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': 'RT @Darren32895836: Top GOP Donor Mica Mosbacher says as a Mother &amp; as a Christian she supports Donald Trump 110%! Never Hillary Clinton', 'sentiment': <Positivity.positive: 1>, 'code': '1'}
+{'text': 'RT @stevesilberman: The worst guys on Earth are saying "all men do this" now to cover Trump. It sends a terrible message to young men. http…', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': 'RT @amarvarma: @Chris11962 @MrDane1982 yes there is a Rape Trial date for TRUMP this week. With lots of pre history of payment settlements', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': 'RT @HouseCracka: Hillary has 4 dead bodies in Benghazi. Americans who asked for her help. She said no. @DeplorableDJT @mitchellvii', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': 'RT @PrisonPlanet: Hillary supporter caught violating rules while registering voters in Columbus, Ohio. https://t.co/uMBy85XbZR', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': "RT @AngelinaGaalvis: if you're a female how the FUCK do you stand by Trump, embarrassing", 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': "RT @lovetogarden: @SebGorka This election isn't about Trump.  It's about stopping death of American dream.", 'sentiment': <Positivity.negative: -1>, 'code': '1'}
+{'text': 'The first Female president, talk about an awesome thing to see!!!!!  Hillary Clinton 2016!', 'sentiment': <Positivity.positive: 1>, 'code': '1'}
+{'text': '@ScottAdamsSays The "fake because." How many voters parked their vote with #Trump to seem like loyal soldiers?', 'sentiment': <Positivity.positive: 1>, 'code': '-1'}
+{'text': "What kind extreme Supreme Court Justice would Trump pick? Could be one to set women's rights, Civil Rights back 50 yrs. AND that's scary", 'sentiment': <Positivity.positive: 1>, 'code': '-1'}
+{'text': 'HERE YOU GO DUMBAS$ @chucktodd @MSNBC Here are all the times Donald Trump has been accused of rape or attempted rape', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': "Can't decide which career threatening match I want to watch tonight, Miz v Ziggler, or Trump v his own mouth. #debate #NoMercy", 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': "Pretty sure Hillary Clinton could show up at tonight's #debate, not say a single word, and walk away the winner.", 'sentiment': <Positivity.positive: 1>, 'code': '1'}
+{'text': '@CaroleRadziwill @jennieschreib @EllaLela @from_santis @hillary she fought for healthcare for 9/11 first responders!!', 'sentiment': <Positivity.negative: -1>, 'code': '1'}
+{'text': "United States would be a 'rogue superpower' under Trump, analysis says", 'sentiment': <Positivity.positive: 1>, 'code': '-1'}
+{'text': 'Such violent and destructive actions, we need look no farther than #Trump? millions of Americans &amp; #NATO citizens', 'sentiment': <Positivity.negative: -1>, 'code': '1'}
+{'text': 'Trump is like every adolescent with ADHD compounds with an emotional disorder. Poor impulse control &amp; attention seeking overflow behaviors.', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': "RT this if you're proud to have Hillary's back tonight.", 'sentiment': <Positivity.positive: 1>, 'code': '1'}
+{'text': 'HILLARY WILL HELP HER LONDON BANKSTER RELATIVES CONFISCATE ALL PRIVATE PROPERTY IN AMERICA(COMMUNISM)', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': 'I would not be mad at all if Hillary spent this entire night making references to the audio clip and giggling.', 'sentiment': <Positivity.positive: 1>, 'code': '1'}
+{'text': 'I bet Hillary supporters have no idea what happened in Benghazi', 'sentiment': <Positivity.positive: 1>, 'code': '-1'}
+{'text': '@Xiandy01 You need to wake up. Lol. Donald Trump is by far the WORST candidate in the history of ANY presidential election. THE WORST.', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': "hillary loves to play the woman card after she's publicly degraded victim's of sexual abuse... that's the opposite of empowerment", 'sentiment': <Positivity.positive: 1>, 'code': '-1'}
+{'text': 'The whole video is forged and dubbed. Trump will sue your ass off!', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': "A vote for Trump is a vote for hatred of anyone who doesn't identify as a rich, white male.", 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': "Why Republicans can't easily dump Trump off the ballot", 'sentiment': <Positivity.positive: 1>, 'code': '-1'}
+{'text': 'Trump sucks', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': '@bhayes2016 @thehill Donald Trump himself has admitted he said these disgusting things. Have you not seen his "apology" video.', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': "I'm beginning to think 'deplorables' was way too kind of a term to describe many Trump supporters.", 'sentiment': <Positivity.positive: 1>, 'code': '-1'}
+{'text': 'You can’t even say “it’s cause it’s on tape this time” cause all of trump’s bullshit is on tape.He announced his run with a racist statement', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': 'It was all Talk from Donald Trump and no action.So all of it is a big scam to throw votes.Obama and Hillary are Hiding something big!', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': 'Any Person with an ounce of dignity that votes for the racist Trump should check themselves into a psych ward.', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': 'Openly racist, constantly lying, has no policies that he believes in and proudly hates women. Trump has done everything', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': 'This is important proof people. Trump winning.', 'sentiment': <Positivity.positive: 1>, 'code': '1'}
+{'text': 'Almost every newspaper that has endorsed a presidential candidate in the general election has endorsed Hillary.', 'sentiment': <Positivity.positive: 1>, 'code': '1'}
+{'text': 'Racist Hillary DUMPS On African Americans - Calls Them "Professional Never-Do-Wells" | John Hawkins\' Right Wing News', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': "I hope that Trump ruins every Republican down-ballot, too. The Republican Party deserves everything they're getting", 'sentiment': <Positivity.positive: 1>, 'code': '-1'}
+{'text': '#JusticeForJuanita Bill Clinton didn’t use bad words. Bill raped Juanita and Hillary tried to discredit and shame her', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': 'And your solution is vote for Crooked Hillary Clinton? For real? Both Trump &amp; Clinton are corrupt fucks', 'sentiment': <Positivity.negative: -1>, 'code': '-1'}
+{'text': 'Hillary is fighting for all of us, because she knows that we are stronger together.  Now is the time to fight for her', 'sentiment': <Positivity.negative: -1>, 'code': '1'}
