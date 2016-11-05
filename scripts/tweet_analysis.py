@@ -7,7 +7,7 @@ Version : 1.1
 import os
 import json
 import random
-import timeit
+import numpy
 import nltk
 from nltk.tokenize import TweetTokenizer
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
@@ -121,18 +121,40 @@ def record_ratings(candidate, keywords, rating):
     for keyword in keywords:
         if candidate == Candidate.hillary:
             if keyword in hillary_dictionary.keys():
-                hillary_dictionary[keyword].append(rating)
+                hillary_dictionary[keyword]["ratings"].append(rating)
             else:
                 rating_list = [rating]
-                hillary_dictionary[keyword] = rating_list
+                hillary_dictionary[keyword] = {"ratings" : rating_list}
         else:
             if keyword in trump_dictionary.keys():
-                trump_dictionary[keyword].append(rating)
+                trump_dictionary[keyword]["ratings"].append(rating)
             else:
                 rating_list = [rating]
-                trump_dictionary[keyword] = rating_list
+                trump_dictionary[keyword] = {"ratings" : rating_list}
     return
 
+def calc_stats():
+    for keyword,summary in hillary_dictionary.items():
+        ratings_count = len(summary["ratings"])
+        ratings_sum = sum(rating for rating in summary["ratings"])
+        ratings_avg = ratings_sum/ratings_count
+        ratings_var = numpy.var(summary["ratings"])
+
+        summary['count'] = ratings_count
+        summary['average_sentiment'] = ratings_avg
+        summary['sentiment_variance'] = ratings_var
+
+    for keyword,summary in trump_dictionary.items():
+        ratings_count = len(summary["ratings"])
+        ratings_sum = sum(rating for rating in summary["ratings"])
+        ratings_avg = ratings_sum/ratings_count
+        ratings_var = numpy.var(summary["ratings"])
+
+        summary['count'] = ratings_count
+        summary['average_sentiment'] = ratings_avg
+        summary['sentiment_variance'] = ratings_var
+
+    return
 
 def dump_json():
     #produce the output file for R analysis
@@ -177,6 +199,9 @@ if __name__ == '__main__':
                 update_progress(float(index)/float(num_tweets))
             if u'id' in tweet:
                 analyze_tweet(tweet)
+
+    # Get additional statistics
+    calc_stats()
 
     # Save results
     dump_json()
