@@ -1,2 +1,4 @@
 # Data
 data/*.json
+scripts/*.json
+*.json
