@@ -12,7 +12,7 @@ class Positivity(IntEnum):
 file_name = "CompiledTweets.txt"
 
 # Threshold for classifier, > 0.25 is positive, < -0.25 is negative, else neutral
-THRESHOLD = 0.50
+THRESHOLD = 0.35
 
 hand_coded_tweets = []
 hand_coded_json = None
@@ -59,12 +59,12 @@ for tweet in hand_coded_tweets:
 
 	if int(tweet['code']) == 1:
 		if tweet['sentiment'] == Positivity.positive:
-			confusion_matrix['pos_pos'] += 1				
+			confusion_matrix['pos_pos'] += 1
 		elif tweet['sentiment'] == Positivity.negative:
-			confusion_matrix['pos_neg'] += 1				
+			confusion_matrix['pos_neg'] += 1
 	elif int(tweet['code']) == -1:
 		if tweet['sentiment'] == Positivity.positive:
-			confusion_matrix['neg_pos'] += 1				
+			confusion_matrix['neg_pos'] += 1
 		elif tweet['sentiment'] == Positivity.negative:
 			confusion_matrix['neg_neg'] += 1
 	print(tweet, file=f)
