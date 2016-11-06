@@ -50,6 +50,8 @@ hillary_dictionary = {}
 trump_dictionary = {}
 keyword_list = []
 used_tweets = []
+simple_tweets_hillary = []
+simple_tweets_trump = []
 
 def analyze_tweet(tweet):
     # Clean tweet using NLTK tokenizer
@@ -57,6 +59,9 @@ def analyze_tweet(tweet):
 
     # Who is the tweet primarily talking about?
     candidate = identify_candidate(tweet_text)
+    if candidate == None:
+        print("No one home")
+        return None
 
     # Now, find any keywords
     found_keywords = []
@@ -72,6 +77,10 @@ def analyze_tweet(tweet):
         if vader_rating != 0:
             record_ratings(candidate, found_keywords, vader_rating)
             used_tweets.append(tweet)
+            if candidate == Candidate.hillary:
+                simple_tweets_hillary.append({"id": tweet['id']})
+            else:
+                simple_tweets_trump.append({"id": tweet['id']})
 
     return
 
@@ -166,6 +175,12 @@ def dump_json():
 
     with open('used_tweets.json',mode='w') as dumping_file:
         json.dump(used_tweets, dumping_file)
+
+    with open('simple_tweets_hillary.json',mode='w') as dumping_file:
+        json.dump(simple_tweets_hillary, dumping_file)
+
+    with open('simple_tweets_trump.json',mode='w') as dumping_file:
+        json.dump(simple_tweets_trump, dumping_file)
 
     return
 
