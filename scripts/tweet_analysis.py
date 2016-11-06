@@ -167,19 +167,19 @@ def calc_stats():
 
 def dump_json():
     #produce the output file for R analysis
-    with open('analysis_hillary.json',mode='w') as dumping_file:
+    with open('../data/analysis_hillary.json',mode='w') as dumping_file:
         json.dump(hillary_dictionary, dumping_file)
 
-    with open('analysis_trump.json',mode='w') as dumping_file:
+    with open('../data/analysis_trump.json',mode='w') as dumping_file:
         json.dump(trump_dictionary, dumping_file)
 
-    with open('used_tweets.json',mode='w') as dumping_file:
+    with open('../data/used_tweets.json',mode='w') as dumping_file:
         json.dump(used_tweets, dumping_file)
 
-    with open('simple_tweets_hillary.json',mode='w') as dumping_file:
+    with open('../data/simple_tweets_hillary.json',mode='w') as dumping_file:
         json.dump(simple_tweets_hillary, dumping_file)
 
-    with open('simple_tweets_trump.json',mode='w') as dumping_file:
+    with open('../data/simple_tweets_trump.json',mode='w') as dumping_file:
         json.dump(simple_tweets_trump, dumping_file)
 
     return
