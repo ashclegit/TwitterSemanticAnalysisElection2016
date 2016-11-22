@@ -29,7 +29,9 @@ def do_matrix(THRESHOLD = 0):
     		hand_coded_tweets.append(tweet)
 
     	hand_coded_json  = json.dumps(hand_coded_tweets)
-    print("Total Tweets {0}".format(len(hand_coded_tweets)))
+
+    total_tweets = len(hand_coded_tweets)
+    print("Total Tweets {0}".format(total_tweets))
 
     confusion_matrix = {
     	'pos_pos': 0,
@@ -72,8 +74,12 @@ def do_matrix(THRESHOLD = 0):
     for key, value in sorted(confusion_matrix.items()): # Note the () after items!
         print(key, value),
 
-    print("Accuracy = {0}".format())
+    if classified > 0:
+        accuracy = float(confusion_matrix['pos_pos'] + confusion_matrix['neg_neg']) / classified
+        print("\nAccuracy = {0}".format(accuracy))
+        retention_rate = float(classified)/total_tweets
+        print("%% of Tweets Used = {0}".format(retention_rate))
 
 if __name__ == '__main__':
-    for threshold in numpy.arange(0,1,0.05):
+    for threshold in numpy.arange(0,1,0.025):
         do_matrix(threshold)
