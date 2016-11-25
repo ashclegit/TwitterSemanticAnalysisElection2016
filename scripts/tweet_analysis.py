@@ -1,7 +1,7 @@
 '''
-Author : Kunwar Deep Singh Toor
-Date : 10-22-2016
-Version : 1.1
+Author : Kunwar Deep Singh Toor, Nick Glyder
+Date : 11-19-2016
+Version : 2.1
 '''
 
 import os
@@ -30,8 +30,7 @@ hillary_identifiers = [
 hillary_hashtags = [
     u'#imwithher',
     u'#hillary',
-    u'#clinton',
-    u'#hillaryclinton'
+    u'#clinton'
 ]
 
 # Used to classify tweets as pertaining to Trump
@@ -50,17 +49,14 @@ hillary_dictionary = {}
 trump_dictionary = {}
 keyword_list = []
 used_tweets = []
-simple_tweets_hillary = []
-simple_tweets_trump = []
 
-def analyze_tweet(tweet):
+def analyze_tweet(tweet, threshold = 0):
     # Clean tweet using NLTK tokenizer
     tweet_text = " ".join(tweet_token.tokenize(tweet['text'].lower()))
 
     # Who is the tweet primarily talking about?
     candidate = identify_candidate(tweet_text)
     if candidate == None:
-        print("No one home")
         return None
 
     # Now, find any keywords
@@ -74,13 +70,10 @@ def analyze_tweet(tweet):
         return None
     else:
         vader_rating = sentiment_score(tweet_text)
-        if vader_rating != 0:
-            record_ratings(candidate, found_keywords, vader_rating)
+        if vader_rating > threshold or vader_rating < -threshold:
+            vader_normalized = normalize_score(vader_rating, threshold)
+            record_ratings(candidate, found_keywords, vader_normalized)
             used_tweets.append(tweet)
-            if candidate == Candidate.hillary:
-                simple_tweets_hillary.append({"id": tweet['id']})
-            else:
-                simple_tweets_trump.append({"id": tweet['id']})
 
     return
 
@@ -125,6 +118,15 @@ def sentiment_score(tweet_text):
     # calculate sentiment score
     return vaderAnalyzer.polarity_scores(tweet_text)['compound']
 
+def normalize_score(score, threshold):
+    # normalize score to -1 .. 1
+    if score > 0:
+        return float(score - threshold) / float(1 - threshold)
+    elif score < 0:
+        return float(score + threshold) / float(1 - threshold)
+    else:
+        return None
+
 def record_ratings(candidate, keywords, rating):
     # add ratings to the dictionary of the purticular candidate
     for keyword in keywords:
@@ -168,19 +170,16 @@ def calc_stats():
 def dump_json():
     #produce the output file for R analysis
     with open('../data/analysis_hillary.json',mode='w') as dumping_file:
+        print("{0} keywords for Hillary".format(len(hillary_dictionary)))
         json.dump(hillary_dictionary, dumping_file)
 
     with open('../data/analysis_trump.json',mode='w') as dumping_file:
+        print("{0} keywords for Trump".format(len(trump_dictionary)))
         json.dump(trump_dictionary, dumping_file)
 
     with open('../data/used_tweets.json',mode='w') as dumping_file:
+        print("{0} total tweets used".format(len(used_tweets)))
         json.dump(used_tweets, dumping_file)
-
-    with open('../data/simple_tweets_hillary.json',mode='w') as dumping_file:
-        json.dump(simple_tweets_hillary, dumping_file)
-
-    with open('../data/simple_tweets_trump.json',mode='w') as dumping_file:
-        json.dump(simple_tweets_trump, dumping_file)
 
     return
 
@@ -202,6 +201,7 @@ Main Method. Execution point
 if __name__ == '__main__':
     keyword_url = '../data/keywords.txt'
     load_keywords(keyword_url)
+    threshold = 0.3
 
     num_tweets = 0
     with open('../data/debate_3.json') as tweetfile:
@@ -213,7 +213,7 @@ if __name__ == '__main__':
             if index % 100 == 0 or index + 1 == num_tweets:
                 update_progress(float(index)/float(num_tweets))
             if u'id' in tweet:
-                analyze_tweet(tweet)
+                analyze_tweet(tweet, threshold)
 
     # Get additional statistics
     calc_stats()

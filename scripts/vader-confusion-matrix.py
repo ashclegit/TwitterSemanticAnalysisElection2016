@@ -81,5 +81,5 @@ def do_matrix(THRESHOLD = 0):
         print("%% of Tweets Used = {0}".format(retention_rate))
 
 if __name__ == '__main__':
-    for threshold in numpy.arange(0,1,0.025):
+    for threshold in numpy.arange(0,1,0.05):
         do_matrix(threshold)
