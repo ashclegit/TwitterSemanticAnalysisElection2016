@@ -201,7 +201,7 @@ Main Method. Execution point
 if __name__ == '__main__':
     keyword_url = '../data/keywords.txt'
     load_keywords(keyword_url)
-    threshold = 0.3
+    threshold = 0.2
 
     num_tweets = 0
     with open('../data/debate_3.json') as tweetfile:
